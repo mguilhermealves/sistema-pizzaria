@@ -4,7 +4,7 @@
     <div class="pull-right hidden-xs">
       <b>Versão:</b> <?php print(constant("cVersion")) ?>
     </div>
-    <strong>Copyright &copy; 2009-<?php print(date("Y")); ?> <a href="https://hsolmkt.com.br">HSOL MKT</a>.</strong> Todos os direitos reservados.
+    <strong>Copyright &copy; 2022-<?php print(date("Y")); ?> <a href="">MJ SYSTEM SOLUTIONS</a>.</strong> Todos os direitos reservados.
   </footer>
 
   <!-- Control Sidebar -->

@@ -13,7 +13,7 @@ define ("cBancoStr", 'mysql_pizzaria');
 define("prefix_tables" , "");
 
 define( "cAppKey" , "pizzaria.gerenciador" );
-define( "cTitle" , "Sistema Pizzaria" );
+define( "cTitle" , "System Pizza" );
 define( "cVersion" , "Desenvolvimento" );
 
 define( "cAppRoot" , "/" );

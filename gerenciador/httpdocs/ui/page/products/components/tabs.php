@@ -12,7 +12,7 @@
                 <div class="col-lg-4">
                     <div class="form-group">
                         <label for="name">Nome do Produto: </label>
-                        <input type="text" class="form-control" id="name" name="name" value="<?php print(isset($data["name"]) ? $data["name"] : "") ?>" placeholder="Ex: Cartão BPP">
+                        <input type="text" class="form-control" id="name" name="name" value="<?php print(isset($data["name"]) ? $data["name"] : "") ?>" placeholder="Ex: Pizza Mussarela">
                     </div>
                 </div>
 
@@ -22,7 +22,7 @@
                         <select class="form-control" id="type" name="type">
                             <option value="">Selecione</option>
                             <?php
-                            foreach ($GLOBALS["ufbr_lists"] as $k => $v) {
+                            foreach ($GLOBALS["type_products_lists"] as $k => $v) {
                                 printf('<option %s value="%s">%s</option>', isset($data["type"]) && $k == $data["type"] ? ' selected' : '', $k, $v);
                             }
                             ?>
@@ -32,8 +32,11 @@
 
                 <div class="col-lg-4">
                     <div class="form-group">
-                        <label for="price">Valor: </label>
-                        <input type="text" class="form-control" id="price" name="name" value="<?php print(isset($data["price"]) ? $data["price"] : "") ?>" placeholder="Ex: Cartão BPP">
+                        <label for="price">Valor do Produto:</label>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon1">R$</span>
+                            <input type="text" class="form-control money" id="price" name="price" value="<?php print(isset($data["price"]) ? $data["price"] : "") ?>" placeholder="Ex: 35,00">
+                        </div>
                     </div>
                 </div>
 

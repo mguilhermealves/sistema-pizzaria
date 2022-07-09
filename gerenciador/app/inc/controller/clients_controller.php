@@ -149,7 +149,7 @@ class clients_controller
 				foreach ($data as $key => $value) {
 					$out["suggestions"][] = array(
 						"data" => $value,
-						"value" => sprintf("%s - %s - %s ", $value["first_name"], preg_replace("/(\d{3})(\d{3})(\d{3})(\d{2})/", "\$1.\$2.\$3-\$4", $value["cpf"]), $value["phone"])
+						"value" => sprintf("%s, CPF n° %s, N° %s ", $value["first_name"], preg_replace("/(\d{3})(\d{3})(\d{3})(\d{2})/", "\$1.\$2.\$3-\$4", $value["cpf"]), $value["phone"])
 					);
 				}
 

@@ -279,18 +279,6 @@ $marital_status = array(
   , "widower" => "Viúvo"
 );
 
-$type_works = array(
-  "clt" => "CLT",
-  "pj" => "Pessoa Juridica"
-);
-
-$deadline_contract = array(
-  "12" => "12 Meses"
-  , "24" => "24 Meses"
-  , "36" => "36 Meses"
-  , "48" => "48 Meses"
-);
-
 $type_bank_lists = array(
   "J" => "Jurídica"
   , "F" => "Física"
@@ -304,4 +292,10 @@ $type_nature_lists = array(
 $type_public_lists = array(
   "in" => "Interno",
   "out" => "Externo"
+);
+
+$type_products_lists = array(
+  "pizzas" => "Pizzas",
+  "drinks" => "Bebidas",
+  "other" => "Outros"
 );

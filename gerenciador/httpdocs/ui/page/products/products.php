@@ -77,9 +77,9 @@
                                     </select>
                                 </div>
                                 <div class="col-lg-6 d-flex justify-content-center form-group text-center">
-                                    <button type="button" id="btn_sr_first" class=" btn ">|<</button>
+                                    <button type="button" id="btn_sr_first" class=" btn ">|<< /button>
                                             <button type="button" id="btn_sr_previus" class=" btn ">
-                                                <</button>
+                                                << /button>
                                                     <button type="button" id="btn_sr_next" class=" btn ">></button>
                                                     <button type="button" id="btn_sr_last" class=" btn ">>|</button>
                                 </div>
